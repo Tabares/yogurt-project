@@ -1,0 +1,13 @@
+{
+  "generator-yeogurt": {
+    "config": {
+      "projectName": "yogurt",
+      "htmlOption": "jade",
+      "jsPreprocessor": "none",
+      "cssOption": "sass",
+      "sassSyntax": "sass",
+      "testFramework": "jasmine"
+    },
+    "version": "1.5.3"
+  }
+}
