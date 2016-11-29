@@ -3,6 +3,61 @@ extends _layouts/base
 include _modules/link/link
 
 block content
+  div.movie-card
+    div.container
+      a(href='#')
+        img.cover(src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/hobbit_cover.jpg" alt= "cover")
+      div.hero
+        div.details
+          div.title1 The Hobbit
+            span PG-13
+          div.title2 The Battle of the Five Armies
+          fieldset.rating
+            input#start5(type="radio" name="rating" value="5")
+            label.full(for="star5" title="Awesome - 5 stars")
+            input#start4half(type="radio" name="rating" value="4 and a half")
+            label.half(for="star4half" title="Pretty good - 4.5 stars")
+            input#start4(type="radio" name="rating" value="4" checked)
+            label.full(for="star4" title="Pretty good - 4 stars")
+            input#start4half(type="radio" name="rating" value="3 and a half")
+            label.half(for="star4half" title="Pretty good - 3.5 stars")
+            input#start4(type="radio" name="rating" value="3")
+            label.full(for="star4" title="Pretty good - 3 stars")
+            input#start4half(type="radio" name="rating" value="2 and a half")
+            label.half(for="star4half" title="Pretty good - 2.5 stars")
+            input#start4(type="radio" name="rating" value="2")
+            label.full(for="star4" title="Pretty good - 2 stars")
+            input#start3half(type="radio" name="rating" value="1 and a half")
+            label.half(for="star4half" title="Pretty good - 1.5 stars")
+            input#start3(type="radio" name="rating" value="1")
+            label.full(for="star4" title="Pretty good - 1 stars")
+            input#start2half(type="radio" name="rating" value="half")
+            label.half(for="star4half" title="Pretty good - 0.5 stars")
+          span.likes 109 likes
+      div.description
+            div.column1
+              span.tag action
+              span.tag fantasy
+              span.tag adventure
+            div.column2
+              p.
+                Bilbo Baggins is swept into a quest to reclaim the lost Dwarf Kingdom of Erebor from the fearsome dragon Smaug. Approached out of the blue by the wizard Gandalf the Grey, Bilbo finds himself joining a company of thirteen dwarves led by the legendary warrior, Thorin Oakenshield. Their journey will take them into the Wild; through... 
+              a(href="#")
+                div.avatars
+                  a(href="#" data-tooltip="Person 1" data-placement="top")
+                  img(src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/hobbit_avatar1.png" alt="avatar1")
+                  a(href="#" data-tooltip="Person 2" data-placement="top")
+                  img(src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/hobbit_avatar2.png" alt="avatar2")
+                  a(href="#" data-tooltip="Person 3" data-placement="top")
+                  img(src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/hobbit_avatar3.png" alt="avatar3")
+                  
+                  
+              
+    
+    
+    
+      
+    
   .container
     .yeogurt-info
       h1 Welcome to Yeogurt!
@@ -13,3 +68,4 @@ block content
       p
         img.logo(src="images/yeogurt-swirl.png", width="75px")
   code.version v1.5.3
+  div.demo Tis
