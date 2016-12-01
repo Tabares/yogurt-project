@@ -434,7 +434,7 @@ a:hover {
 
 .movie-card {
   font: 14px/22px "Lato", Arial, sans-serif;
-  color: #A9A8A3;
+  color: #454c4a;
   padding: 40px 0;
 }
 
@@ -609,6 +609,7 @@ fieldset, label {
 /***** CSS Magic to Highlight Stars on Hover *****/
 .rating:not(:checked) > label:hover ~ label {
   color: #FFD700;
+  /* hover previous stars in list */
 }
 
 .rating > input:checked ~ label:hover ~ label {
@@ -668,6 +669,33 @@ a[data-tooltip][data-placement="top"]::after {
   bottom: 50px;
   left: 20px;
   margin-bottom: 4px;
+}
+
+.content-example {
+  font: 100% Helvetica, sans-serif;
+  color: #333;
+  font-size: 20px;
+  padding-left: 100px;
+}
+
+nav.navigate {
+  color: green;
+}
+
+nav.navigate ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav.navigate li {
+  display: inline-block;
+}
+
+nav.navigate a {
+  display: block;
+  padding: 6px 12px;
+  text-decoration: none;
 }
 
 *,
